@@ -22,7 +22,7 @@ export class RoomListComponent implements OnInit {
   }
 
   reloadData(){
-    this.rooms = this.roomService.getRoomList();
+    this.rooms = this.roomService.getRoomsList();
   }
 
   deleteRoom(id: number){
