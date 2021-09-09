@@ -10,8 +10,8 @@ import { RoomService } from '../room.service';
 })
 export class UpdateRoomComponent implements OnInit {
 
-  id: number | undefined;
-  room: Room | undefined;
+  id!: number;
+  room!: Room;
   submitted= false;
 
 

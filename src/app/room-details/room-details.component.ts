@@ -10,8 +10,8 @@ import { RoomService } from '../room.service';
 })
 export class RoomDetailsComponent implements OnInit {
 
-  id: number | undefined;
-  room: Room | undefined;
+  id!: number;
+  room!: Room;
 
   constructor(private route: ActivatedRoute,
               private router: Router,

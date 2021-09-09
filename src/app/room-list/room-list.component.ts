@@ -12,7 +12,7 @@ import { Router } from '@angular/router';
 })
 export class RoomListComponent implements OnInit {
 
-  rooms: Observable<Room[]> | undefined;
+  rooms: Observable<Room[]> = new Observable<Room[]>();
 
   constructor(private roomService: RoomService,
               private router: Router) { }
